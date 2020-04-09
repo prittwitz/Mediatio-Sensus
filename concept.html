@@ -6,16 +6,42 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  .button {
+    float: right;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
   </style>
 </head>
 <body>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
-  </ul>
+  <div class="menu">
 
+  </div>
+    <ul>
+      <li class="active">
+      <li><a href="#concept">Konzept</a></li>
+      <li><a href="#./umsetzung.hmtl">Umsetzung</a></li>
+      <li><a href="./reflexion.html">Reflexion</a></li>
+      <!-- geht natürlich auch einfach mit #umsetzung, müsste dann aber glaube ich in css gemacht werden -->
+    </li>
+    <button class="button"
+        type="button"
+        onclick="www.pornhub.com">
+    Zu meiner Website
+    </button>
+    <!-- LINK VERÄNDERN!! Kenne den Link deiner Website nicht. -->
+    </ul>
+  </div>
 </body>
 </html>
