@@ -2,6 +2,9 @@
 <html>
 <head>
   <style>
+  .hintergrund{
+    background-image: url(Hintergrund_Konzept.jpg);
+  }
   ul {
     list-style-type: none;
     margin: 0;
@@ -21,7 +24,7 @@
     padding: 8px;
     background-color: #dddddd;
   }
-  .concept-content-text{
+  .content{
     text-align: center;
     border: 3px solid blue;
     padding: 15%;
@@ -34,10 +37,8 @@
   </style>
 </head>
 <body>
-  <background class="hintergrund">
+  <div class="hintergrund"></div>
   <div class="menu">
-
-  </div>
     <ul>
       <li class="active">
       <li><a href="./concept.html">Konzept</a></li>
@@ -45,16 +46,16 @@
       <li><a href="./reflexion.html">Reflexion</a></li>
       <!-- geht natürlich auch einfach mit #umsetzung, müsste dann aber glaube ich in css gemacht werden -->
     </li>
+    <a href='https://de.pornhub.com/'>
     <button class="button"
-        type="button"
-        onclick="www.pornhub.com">
+        type="button">
     Zu meiner Website
     </button>
-    <!-- LINK VERÄNDERN!! Kenne den Link deiner Website nicht. -->
+    </a>
     </ul>
-
+    <!-- LINK VERÄNDERN!! Kenne den Link deiner Website nicht. -->
   </div>
-  <div class="concept-content-text">
+  <div class="content">
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
   </div>
 </body>
