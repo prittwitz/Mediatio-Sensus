@@ -1,15 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <header>
-  </header>
-  <body>
+<head>
+  <style>
+  .hintergrund{
+    background-image: url(Hintergrund_reflexion.jpg);
+  }
+  /* Hintergrund_reflexion noch erstellen */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  .button {
+    float: right;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  .content{
+    text-align: center;
+    border: 3px solid blue;
+    padding: 15%;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
 
-    <h1>This is heading 1</h1>
-    <h2>This is heading 2</h2>
-    <h3>This is heading 3</h3>
-    <h4>This is heading 4</h4>
-    <h5>This is heading 5</h5>
-    <h6>This is heading 6</h6>
-
-  </body>
+  /* Farbe von Rahmen ändern oder einfach ganzen Rahmen wegkicken */
+  </style>
+</head>
+<body>
+  <div class="hintergrund"></div>
+  <div class="menu">
+    <ul>
+      <li class="active">
+      <li><a href="./concept.html">Konzept</a></li>
+      <li><a href="./umsetzung.html">Umsetzung</a></li>
+      <li><a href="./reflexion.html">Reflexion</a></li>
+      <!-- geht natürlich auch einfach mit #umsetzung, müsste dann aber glaube ich in css gemacht werden -->
+    </li>
+    <a href='https://www.brazzers.com/'>
+    <button class="button"
+        type="button">
+    Zu meiner Website
+    </button>
+    </a>
+    </ul>
+    <!-- LINK VERÄNDERN!! Kenne den Link deiner Website nicht. -->
+  </div>
+  <div class="content">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  </div>
+</body>
 </html>
